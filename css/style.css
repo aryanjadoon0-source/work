@@ -1,0 +1,142 @@
+.body{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+}
+
+.header-row{
+   margin-left: -9px;
+ } 
+.brand-logo{ 
+  background-color: black;
+   width: 414px;
+   height: 70px;
+    color: white;
+    text-align: left;
+     padding-left: 16px;
+     padding-right: 488px;
+     padding-top: 14px;
+    margin-left: auto; 
+    margin-right: auto;
+   } 
+
+
+.big{
+  font-size: 2rem;
+}
+
+.happy{
+  font-size: 1.2rem;
+}
+
+.stays{
+  font-size: 1.1rem;
+  margin-left: 63px;
+  position: relative;
+  top: -23px;   /* yaha value change karo */
+}
+
+.lg {
+  position: relative;
+  top: -42px;      /* upar shift karne ke liye negative value */
+  left: 668px;     /* jitna left shift chahiye */
+  background-color: yellow;
+  height: 42px;
+  border-radius: 3px;
+}
+
+.logos {
+  position: relative;
+  top: -30px;     /* negative value se upar shift */
+  left: 668px;    /* jitna left shift chahiye */
+  width: 32px;
+  height: 32px;
+}
+
+
+
+.home-wrapper {
+  text-align: center;   /* center the boxes */
+  margin-top: -20px;
+}
+
+ #home {
+  display: inline-block;
+  background-color: rgb(176, 176, 252);
+  color: white;
+  text-align: center;
+  margin: 0;           /* no space between the boxes */
+  padding: 2px 340px;    /* top/bottom padding small, left/right padding for width */
+  padding-top: 43px;
+  padding-bottom: 39px;
+
+
+}
+
+.primary{
+  margin-top: -11px;
+}
+.woork{
+  margin-top: -12px;
+}
+
+.item {
+  text-align: center;   /* center the boxes */
+  margin-top: -19px;
+  margin-left: -39px;
+}
+
+.menu{
+    margin-top: -39px;
+}
+
+.menu-logo {
+  display: block;               /* inline-block se block better for centering */
+  margin: 0 auto;               /* center horizontally */
+  height: 82px;                 /* fixed height */
+  max-width: 857px;             /* maximum width */
+  width: 100%;                  /* width responsive but limited by max-width */
+  object-fit: cover;            /* maintain aspect ratio */
+  padding-top: 33px;
+  padding-bottom: 39px;
+}
+
+    
+
+#fog {
+  background-color: white;         /* background white */
+  display: flex;
+  justify-content:center;         /* center wrapper horizontally */
+  padding: 20px 70px;
+}
+
+.text-wrapper {
+  background-color: rgb(239, 231, 231);
+  border-radius: 12px;
+  text-align: left;
+    padding: 5px 80px;
+  display: flex;                  /* columns side by side */
+  gap: 30px;                       /* space between columns */
+  position: relative;
+  top: -100px;                      /* upar shift */
+}
+
+.text-column {
+  text-align: left;             /* text centered inside each column */
+}
+
+.g-primary, .l-primary {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.wooork, .kkk {
+  font-size: 0.6rem;
+  margin: 5px 0 0 0;
+}
+
+
+
+
+

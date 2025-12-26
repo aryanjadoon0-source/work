@@ -27,15 +27,37 @@
 }
 
 .happy{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .stays{
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   margin-left: 63px;
   position: relative;
   top: -23px;   /* yaha value change karo */
 }
+
+ .big{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+.happy,
+.stays {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+.big:hover{
+  cursor: pointer;
+}
+.happy:hover{
+  cursor: pointer;
+}
+
+.stays:hover{
+  cursor: pointer;
+}
+
 
 .lg {
   position: relative;
@@ -45,6 +67,12 @@
   height: 42px;
   border-radius: 3px;
 }
+
+.lg:hover{
+  cursor: pointer;
+}
+
+
 
 .logos {
   position: relative;
@@ -74,8 +102,22 @@
 
 }
 
+ .h-primary{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+.woork,
+.primary {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+
+
 .primary{
   margin-top: -11px;
+
 }
 .woork{
   margin-top: -12px;
@@ -87,20 +129,34 @@
   margin-left: -39px;
 }
 
-.menu{
-    margin-top: -39px;
+ .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 44px;
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu .item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;              /* logos ke beech gap */
+  background: black;      /* black background */
+  padding: 12px 20px;
+  padding-bottom: 17px;
+  border-radius: 0px;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
 }
 
 .menu-logo {
-  display: block;               /* inline-block se block better for centering */
-  margin: 0 auto;               /* center horizontally */
-  height: 82px;                 /* fixed height */
-  max-width: 857px;             /* maximum width */
-  width: 100%;                  /* width responsive but limited by max-width */
-  object-fit: cover;            /* maintain aspect ratio */
-  padding-top: 33px;
-  padding-bottom: 39px;
+  width: 80px;            /* chhota size */
+  height: auto;
 }
+
 
     
 
@@ -120,7 +176,7 @@
   display: flex;                  /* columns side by side */
   gap: 80px;                       /* space between columns */
   position: relative;
-  top: -100px;                      /* upar shift */
+  top: -34px;                      /* upar shift */
 }
 
 .text-column {
@@ -128,7 +184,7 @@
 }
 
 .g-primary, .l-primary {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   margin: 0;
   margin-left: -49px;
 }
@@ -138,17 +194,32 @@
   margin: 5px 0 0 0;
   margin-left: -49px;
 }
+    .g-primary,
+    .l-primary{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+
+.wooork,
+.kkk {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
 
 .search{
   margin-left: 64px;
-  border-radius: 55px;
-  background-color: rgb(245, 77, 77);
+  border-radius: 10px;
+  background-color: rgb(255, 67, 67);
   color: white;
   height: 26px;
   width: 85px;
   margin-top: 8px;
 }
 
+.search:hover{
+  cursor: pointer;
+}
 
 
 

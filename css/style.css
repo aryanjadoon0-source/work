@@ -91,7 +91,7 @@
 
  #home {
   display: inline-block;
-  background-color: rgb(176, 176, 252);
+  background-color: rgb(204, 204, 247);
   color: white;
   text-align: center;
   margin: 0;           /* no space between the boxes */
@@ -146,7 +146,7 @@
   gap: 46px;              /* logos ke beech gap */
   background: black;      /* black background */
   padding: 12px 20px;
-  padding-bottom: 17px;
+  padding-bottom: 19px;
   border-radius: 0px;
  border-bottom-left-radius: 10px;
  border-bottom-right-radius: 10px;
@@ -172,7 +172,7 @@
   border: 1px solid wheat;
   border-radius: 12px;
   text-align: left;
-    padding: 5px 60px;
+    padding: 11px 60px;
   display: flex;                  /* columns side by side */
   gap: 80px;                       /* space between columns */
   position: relative;

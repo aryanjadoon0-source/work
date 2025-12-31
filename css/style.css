@@ -1,0 +1,234 @@
+.body{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+}
+
+.header-row{
+   margin-left: -9px;
+ } 
+.brand-logo{ 
+  background-color: rgb(19, 91, 102)  ;
+   width: 414px;
+   height: 70px;
+    color: white;
+    text-align: left;
+     padding-left: 16px;
+     padding-right: 488px;
+     padding-top: 14px;
+    margin-left: auto; 
+    margin-right: auto;
+   } 
+
+
+.big{
+  font-size: 2rem;
+}
+
+.happy{
+  font-size: 1.1rem;
+}
+
+.stays{
+  font-size: 0.9rem;
+  margin-left: 63px;
+  position: relative;
+  top: -23px;   /* yaha value change karo */
+}
+
+ 
+.big{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+
+}
+
+
+.happy,
+.stays {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+.big:hover{
+  cursor: pointer;
+}
+.happy:hover{
+  cursor: pointer;
+}
+
+.stays:hover{
+  cursor: pointer;
+}
+
+
+.lg {
+  position: relative;
+  top: -42px;      /* upar shift karne ke liye negative value */
+  left: 668px;     /* jitna left shift chahiye */
+  background-color: yellow;
+  border: 1px solid rgb(10, 70, 59);
+  height: 42px;
+  border-radius: 3px;
+}
+
+.lg:hover{
+  cursor: pointer;
+}
+
+
+
+.logos {
+  position: relative;
+  top: -30px;     /* negative value se upar shift */
+  left: 668px;    /* jitna left shift chahiye */
+  width: 32px;
+  height: 32px;
+}
+.logos:hover{
+  cursor: pointer;
+}
+
+
+.home-wrapper {
+  text-align: center;   /* center the boxes */
+  margin-top: -1px;
+}
+
+ #home {
+  display: inline-block;
+  background-color: rgb(224, 233, 233);
+  color: white;
+  text-align: center;
+  margin: 0;           /* no space between the boxes */
+  padding: 2px 340px;    /* top/bottom padding small, left/right padding for width */
+  padding-top: 63px;
+  padding-bottom: 39px;
+
+
+}
+
+ .h-primary{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.05em;
+}
+
+.woork,
+.primary {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+
+}
+
+
+
+.primary{
+  margin-top: -11px;
+
+}
+.woork{
+  margin-top: -12px;
+}
+
+.item {
+  text-align: center;   /* center the boxes */
+  margin-top: -19px;
+  margin-left: -39px;
+}
+
+ .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 44px;
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu .item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;              /* logos ke beech gap */
+  background: rgb(11, 71, 75) ;      /* black background */
+  padding: 12px 20px;
+  padding-bottom: 19px;
+  border-radius: 0px;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+}
+
+.menu-logo {
+  width: 80px;            /* chhota size */
+  height: auto;
+}
+
+
+    
+
+#fog {
+  background-color: white;         /* background white */
+  display: flex;
+  justify-content:center;         /* center wrapper horizontally */
+  padding: 20px 70px;
+}
+
+.text-wrapper {
+  background-color: white;
+  border: 1px solid wheat;
+  border-radius: 12px;
+  text-align: left;
+    padding: 11px 60px;
+  display: flex;                  /* columns side by side */
+  gap: 80px;                       /* space between columns */
+  position: relative;
+  top: -34px;                      /* upar shift */
+}
+
+.text-column {
+  text-align: left;             /* text centered inside each column */
+}
+
+.g-primary, .l-primary {
+  font-size: 0.8rem;
+  margin: 0;
+  margin-left: -49px;
+}
+
+.wooork, .kkk {
+  font-size: 0.6rem;
+  margin: 5px 0 0 0;
+  margin-left: -49px;
+}
+    .g-primary,
+    .l-primary{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+
+.wooork,
+.kkk {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.search{
+  margin-left: 64px;
+  border-radius: 10px;
+  background-color: orangered;
+  border: 1px solid white;
+  color: white;
+  height: 26px;
+  width: 85px;
+  margin-top: 8px;
+}
+
+.search:hover{
+  cursor: pointer;
+}
+
+
+

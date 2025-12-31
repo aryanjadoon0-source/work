@@ -67,10 +67,9 @@
   top: -42px;      /* upar shift karne ke liye negative value */
   left: 668px;     /* jitna left shift chahiye */
   background-color: yellow;
-<<<<<<< HEAD
+
   border: 1px solid rgb(10, 70, 59);
-=======
->>>>>>> ee386674cf0ba0c47ce49e5995ee518a75682028
+
   height: 42px;
   border-radius: 3px;
 }
@@ -88,13 +87,11 @@
   width: 32px;
   height: 32px;
 }
-<<<<<<< HEAD
+
 .logos:hover{
   cursor: pointer;
 }
-=======
 
->>>>>>> ee386674cf0ba0c47ce49e5995ee518a75682028
 
 
 .home-wrapper {

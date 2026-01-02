@@ -94,7 +94,7 @@
 
 .home-wrapper {
   text-align: center;   /* center the boxes */
-  margin-top: -1px;
+  margin-top: 0px;
 }
 
  #home {
@@ -104,7 +104,7 @@
   text-align: center;
   margin: 0;           /* no space between the boxes */
   padding: 2px 340px;    /* top/bottom padding small, left/right padding for width */
-  padding-top: 63px;
+  padding-top: 61px;
   padding-bottom: 39px;
 
 

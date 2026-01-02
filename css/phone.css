@@ -1,0 +1,71 @@
+  /* navigation*/
+/* Home wrapper */
+
+#home{
+  max-width: 213px;
+}
+/* Main title */
+.h-primary {
+  font-size: 2.5rem;       /* main title size */
+  margin-bottom: 10px;     /* spacing below */
+  font-weight: 500;
+  white-space: nowrap;      /* keeps "Happy Stays" on one line */
+}
+
+/* Subtitles */
+.woork, .primary {
+  font-size: 1.1rem;
+  margin: 5px 0;           /* spacing between lines */
+  font-weight: 400;
+}
+
+
+
+
+.boxes-container {
+  position: relative;       /* allow manual positioning */
+  width: 880px;             /* total width = number of boxes * box width + gaps */
+  margin: 50px auto;        /* center container vertically on page */
+  left: 310px;              /* adjust this to move group right/left */
+  white-space: nowrap;      /* prevent boxes from wrapping */
+}
+
+.boxes-container .box {
+  display: inline-block;    /* rigid blocks */
+  width: 270px;             /* fixed width */
+  margin-right: 20px;       /* space between boxes */
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  vertical-align: top;      
+}
+
+
+
+
+/* Outer parent: full width page, prevents drift */
+.menu {
+  width: 100%;            /* full width of the page */
+  display: flex;
+  justify-content: flex-start; /* or center, or flex-end for manual control */
+}
+  
+
+
+ 
+/* Outer parent: full width page, prevents drift */
+#fog {
+  width: 100%;            /* full width of the page */
+  display: flex;
+  justify-content: flex-start; /* or center, or flex-end for manual control */
+}
+
+
+
+
+
+
+
+
+
+

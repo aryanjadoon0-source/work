@@ -1,64 +1,167 @@
-  /* navigation*/
-/* Home wrapper */
+
+
+
+.lg {
+  position: absolute;
+  top: 20px;
+  left: 80%;          /* adjust as needed */
+  transform: translateX(-90%);
+}
+
+.logos {
+  position: absolute;
+  top: 26px;
+  left: 89%;          /* thoda right of .lg */
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1px;           /* logos ke beech gap */
+}
+
+
+
+
+
+#header-bg{
+  height: 82px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 3px 10px;
+}
+.stays{
+  top: -4px;
+}
+
+/* Tablet screen */
+@media (max-width: 24px) {
+  #header-bg {
+    padding: 3px 10px;
+  }
+}
+
+/* Mobile screen */
+@media (max-width: 28px) {
+  #header-bg {
+    padding: 10px 10px;
+  }
+}
+
+
+
+
+
+
+/* menu*/
+
+
+/* home */
 
 #home{
-  max-width: 213px;
-}
-/* Main title */
-.h-primary {
-  font-size: 2.5rem;       /* main title size */
-  margin-bottom: 10px;     /* spacing below */
-  font-weight: 500;
-  white-space: nowrap;      /* keeps "Happy Stays" on one line */
-}
-
-/* Subtitles */
-.woork, .primary {
-  font-size: 1.1rem;
-  margin: 5px 0;           /* spacing between lines */
-  font-weight: 400;
-}
-
-
-
-
-.boxes-container {
-  position: relative;       /* allow manual positioning */
-  width: 880px;             /* total width = number of boxes * box width + gaps */
-  margin: 50px auto;        /* center container vertically on page */
-  left: 310px;              /* adjust this to move group right/left */
-  white-space: nowrap;      /* prevent boxes from wrapping */
-}
-
-.boxes-container .box {
-  display: inline-block;    /* rigid blocks */
-  width: 270px;             /* fixed width */
-  margin-right: 20px;       /* space between boxes */
-  background: #fff;
-  border-radius: 15px;
-  overflow: hidden;
-  vertical-align: top;      
-}
-
-
-
-
-/* Outer parent: full width page, prevents drift */
-.menu {
-  width: 100%;            /* full width of the page */
+  height: 223px;
   display: flex;
-  justify-content: flex-start; /* or center, or flex-end for manual control */
+  flex-direction: column;
+  overflow: hidden;
+  padding: 3px 700px;
 }
-  
+
+/* Tablet screen */
+@media (max-width: 1524px) {
+  #home {
+    padding: 3px 200px;
+  }
+}
+
+/* Mobile screen */
+@media (max-width: 888px) {
+  #home {
+    padding: 10px 60px;
+  }
+}
+
+/* menu */
+
+ .menu{
+  flex-wrap: wrap;
+ }
+  .menu img{
+    width: 85px;
+    padding: 1px;
+  }
+
+/* Container styling */
+
+/* Container styling */
+#fog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+/* Wrapper for columns + button */
+.text-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%; 
+    max-height: 43%;
+}
+
+/* Each column */
+.text-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* Shrink but never below 80px, ideal width 120px */
+    width: clamp(80px, 10vw, 120px);
+}
+
+/* Headings */
+h1.g-primary, h1.l-primary {
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    margin: 0 0 10px 0;
+}
+
+/* Paragraphs */
+p.wooork, p.kkk {
+    font-size: clamp(0.75rem, 1.5vw, 0.9rem);
+    margin: 0;
+}
+
+/* Button */
+button.search {
+    padding: clamp(8px, 1.5vw, 15px) clamp(16px, 3vw, 30px);
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    flex-shrink: 0; /* never shrink below clamp size */
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+    .text-wrapper {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text-wrapper {
+        gap: 15px;
+    }
+}
+
 
 
  
-/* Outer parent: full width page, prevents drift */
-#fog {
-  width: 100%;            /* full width of the page */
-  display: flex;
-  justify-content: flex-start; /* or center, or flex-end for manual control */
-}
+
+
+
+
+
 
 
 

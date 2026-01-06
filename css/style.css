@@ -193,16 +193,26 @@
   text-align: left;             /* text centered inside each column */
 }
 
-.g-primary, .l-primary {
+.g-primary{
+    font-size: 0.8rem;
+  margin: 0;
+  margin-left: -33px;
+}
+ .l-primary {
   font-size: 0.8rem;
   margin: 0;
-  margin-left: -49px;
+  margin-left: 14px;
 }
 
-.wooork, .kkk {
+.wooork{
+    font-size: 0.6rem;
+  margin: 5px 0 0 0;
+  margin-left: -42px;
+}
+ .kkk {
   font-size: 0.6rem;
   margin: 5px 0 0 0;
-  margin-left: -49px;
+  margin-left: 14px;
 }
     .g-primary,
     .l-primary{
@@ -231,6 +241,20 @@
 .search:hover{
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

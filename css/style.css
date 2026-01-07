@@ -171,7 +171,8 @@
     
 
 #fog {
-  background-color: white;         /* background white */
+  background-color: white;
+         /* background white */
   display: flex;
   justify-content:center;         /* center wrapper horizontally */
   padding: 20px 70px;
@@ -179,10 +180,10 @@
 
 .text-wrapper {
   background-color: white;
-  border: 1px solid wheat;
+  border: 1px solid rgb(239, 222, 181);
   border-radius: 12px;
   text-align: left;
-    padding: 11px 60px;
+    padding: 10px 45px;
   display: flex;                  /* columns side by side */
   gap: 80px;                       /* space between columns */
   position: relative;
@@ -196,23 +197,23 @@
 .g-primary{
     font-size: 0.8rem;
   margin: 0;
-  margin-left: -33px;
+  margin-left: 11px;
 }
  .l-primary {
   font-size: 0.8rem;
   margin: 0;
-  margin-left: 14px;
+  margin-left: 20px;
 }
 
 .wooork{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   margin: 5px 0 0 0;
-  margin-left: -42px;
+  margin-left: 11px;
 }
  .kkk {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   margin: 5px 0 0 0;
-  margin-left: 14px;
+  margin-left: 20px;
 }
     .g-primary,
     .l-primary{
@@ -228,7 +229,7 @@
 }
 
 .search{
-  margin-left: 64px;
+  margin-left: 15px;
   border-radius: 10px;
   background-color: orangered;
   border: 1px solid white;

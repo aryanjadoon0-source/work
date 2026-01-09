@@ -225,17 +225,26 @@
     align-items: center; /* center boxes in column */
     gap: 20px;
   }
-
+  }
   .box {
     width: 90%; /* make boxes nearly full width on mobile */
   }
+
+
+
+
+/* FOOTER */
+
+
+.brand-mn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* base horizontal center */
+  justify-content: center;
+  color: #fdfdfd;
+  margin-top: -109px;
+  /* shift left or right */
+  transform: translateX(770px); /* negative = left, positive = right */
 }
-
-
-
-
-
-
-
 
 

@@ -7,6 +7,7 @@
 
 .header-row{
    margin-left: -9px;
+   margin-top: -8px;
  } 
 .brand-logo{ 
   background-color: rgb(19, 91, 102)  ;
@@ -16,9 +17,10 @@
     text-align: left;
      padding-left: 16px;
      padding-right: 488px;
-     padding-top: 14px;
+     padding-top: 18px;
     margin-left: auto; 
     margin-right: auto;
+    
    } 
 
 
@@ -65,11 +67,12 @@
 .lg {
   position: relative;
   top: -42px;      /* upar shift karne ke liye negative value */
-  left: 668px;     /* jitna left shift chahiye */
+  left: 648px;     /* jitna left shift chahiye */
   background-color: yellow;
   border: 1px solid rgb(10, 70, 59);
   height: 42px;
   border-radius: 3px;
+  width: 87px;
 }
 
 .lg:hover{
@@ -81,7 +84,7 @@
 .logos {
   position: relative;
   top: -30px;     /* negative value se upar shift */
-  left: 668px;    /* jitna left shift chahiye */
+  left: 658px;    /* jitna left shift chahiye */
   width: 32px;
   height: 32px;
 }
@@ -104,10 +107,9 @@
   text-align: center;
   margin: 0;           /* no space between the boxes */
   padding: 2px 340px;    /* top/bottom padding small, left/right padding for width */
-  padding-top: 61px;
+  padding-top: 1px;
   padding-bottom: 39px;
-
-
+  
 }
 
  .h-primary{
@@ -148,7 +150,7 @@
   display: flex;
   justify-content: center;
 }
-
+        
 .menu .item a {
   display: flex;
   justify-content: center;

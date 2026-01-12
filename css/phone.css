@@ -27,6 +27,7 @@
   flex-direction: column;
   overflow-x: hidden;
   padding: 3px 10px;
+  margin-top: -8px;
 }
 .stays{
   top: -4px;
@@ -60,6 +61,7 @@
   flex-direction: column;
   padding: 4px 5%; 
   box-sizing: border-box; 
+  margin-top: -12px;
 }
 
 /* Tablet screen */
@@ -87,7 +89,7 @@
 
 .menu .item a {
   display: flex;
-  gap: 18px;
+  gap: 20px;
   overflow: hidden;
   white-space: nowrap;
   align-items: center; /* vertically center logos if any are taller */
@@ -95,16 +97,16 @@
 
 
 .menu-logo {
-  height: 10px;      /* default size */
-  width: auto;
+  height: 17px;      /* default size */
+  width: 112px;
   flex: 0 0 auto;    /* keep logo width fixed */
-  transition: height 0.3s ease; /* smooth resizing */
+  transition: height 0.4s ease; /* smooth resizing */
 }
 
 /* MEDIA QUERIES - shrink logos on smaller screens */
 @media (max-width: 900px) {
   .menu-logo {
-    height: 16px;
+    height: 25px;
   }
 }
 
@@ -133,10 +135,6 @@
 }
 
 
-
-
-
-
 #fog {
   width: 90%;
   padding: 12px;
@@ -157,44 +155,6 @@
 
 
 
- 
-
-
-
-
-
-/* Container for row (default for larger screens) */
-.boxes-container-row {
-  display: flex;
-  justify-content: center; /* center all boxes horizontally */
-  gap: 30px;               /* space between boxes */
-  margin-top: 20px;
-  flex-wrap: wrap;         /* allow wrapping on smaller screens */
-}
-
-/* Boxes stay same width */
-.box {
-  position: relative;
-  width: 270px;
-  border-radius: 22px;
-  overflow: hidden;
-  border: 1px solid #eee;
-  flex-shrink: 0; /* prevent shrinking too much */
-}
-
-/* Responsive: on screens smaller than 768px, stack vertically */
-@media screen and (max-width: 768px) {
-  .boxes-container-row {
-    flex-direction: column;
-    align-items: center; /* center boxes in column */
-    gap: 20px;
-  }
-
-  .box {
-    width: 90%; /* make boxes nearly full width on mobile */
-  }
-}
-
 
 
 
@@ -204,7 +164,7 @@
   display: flex;
   justify-content: center; /* center all boxes horizontally */
   gap: 30px;               /* space between boxes */
-  margin-top: 20px;
+  margin-top: 25px;
   flex-wrap: wrap;         /* allow wrapping on smaller screens */
 }
 
@@ -221,7 +181,6 @@
 /* Responsive: on screens smaller than 768px, stack vertically */
 @media screen and (max-width: 768px) {
   .boxes-container {
-    flex-direction: column;
     align-items: center; /* center boxes in column */
     gap: 20px;
   }
@@ -231,20 +190,42 @@
   }
 
 
+/* Container for row (default for larger screens) */
+.boxes-container-row {
+  display: flex;
+  justify-content: center; /* center all boxes horizontally */
+  gap: 30px;               /* space between boxes */
+  margin-top: 290px;
+  flex-wrap: wrap;         /* allow wrapping on smaller screens */
+}
+
+/* Boxes stay same width */
+.box {
+  position: relative;
+  width: 270px;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  flex-shrink: 0; /* prevent shrinking too much */
+}
+
+/* Responsive: on screens smaller than 768px, stack vertically */
+@media screen and (max-width: 768px) {
+  .boxes-container-row {
+
+    align-items: center; /* center boxes in column */
+    gap: 20px;
+  }
+
+  .box {
+    width: 90%; /* make boxes nearly full width on mobile */
+  }
+}
 
 
 /* FOOTER */
 
+/* Responsive for small screens */
+  
 
-.brand-mn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;       /* base horizontal center */
-  justify-content: center;
-  color: #fdfdfd;
-  margin-top: -109px;
-  /* shift left or right */
-  transform: translateX(770px); /* negative = left, positive = right */
-}
-
-
+  
